@@ -1,0 +1,27 @@
+/* styles.css */
+
+html { 
+  background: url(images/pexels-tbee-14592-82256.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+body { 
+  color: black; 
+}
+
+
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inner-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
